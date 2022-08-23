@@ -22,10 +22,10 @@ public class MomoBotTests
         var bot = new MomoBot("Amouzy");
 
         // Act
-        bot.ChangeName("Nash");
+        bot.ChangeName("Nach");
         var result = bot.SayHello();
 
         // Assert
-        Assert.Equal("Hello, my name is Nash", result);
+        Assert.Equal("Hello, my name is Nach", result);
     }
 }
